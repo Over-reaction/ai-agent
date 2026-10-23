@@ -2,6 +2,10 @@ packages:
   - "apps/*"
   - "packages/*"
 
+allowBuilds:
+  esbuild: true
+  workerd: true
+
 catalog:
   "@types/node": "26.4.1"
   "@types/react": "19.3.0"
